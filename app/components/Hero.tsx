@@ -13,7 +13,8 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <span className="text-gradient">Evessient</span>
+            <span className="text-gradient text-4xl font-bold text-blue-600">Evessient</span>
+            
           </motion.h1>
           <motion.p
             className="mt-6 text-lg leading-8 text-muted-foreground"
