@@ -10,6 +10,9 @@ module.exports = {
     "./src/**/*.{ts,tsx}",
     "*.{js,ts,jsx,tsx,mdx}",
   ],
+  safelist: [
+    "border-border"          // ← pastikan ini ada
+  ],
   theme: {
     container: {
       center: true,
